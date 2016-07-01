@@ -22,7 +22,7 @@ Perform integrated I18N processes for Polymer [i18n-behavior](https://github.com
 
 ## Usage
 
-```
+```javascript
     'use strict';
 
     const gulp = require('gulp');
