@@ -1,6 +1,6 @@
 {
   "name": "gulp-i18n-at-once",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Perform integrated I18N processes for Polymer i18n-behavior at once",
   "main": "index.js",
   "scripts": {

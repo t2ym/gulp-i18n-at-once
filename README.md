@@ -1,6 +1,8 @@
 # gulp-i18n-at-once
 
-Perform integrated I18N processes for Polymer [i18n-behavior](https://github.com/t2ym/i18n-behavior) at once
+Perform integrated I18N processes for Polymer [i18n-behavior](https://github.com/t2ym/i18n-behavior) at once (experimental)
+
+### Note: Currently only applicable to [Polymer CLI](https://github.com/Polymer/polymer-cli)/[polymer-build](https://github.com/Polymer/polymer-build) style projects with the project root as its source root.
 
 ## Install
 
@@ -76,8 +78,6 @@ Perform integrated I18N processes for Polymer [i18n-behavior](https://github.com
 ## API
 
 `i18nAtOnce(options)`
-
-### Note: Currently only applicable to Polymer CLI/polymer-build style projects with the project root as its source root.
 
 ### `options` object
 
