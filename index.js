@@ -67,7 +67,7 @@ module.exports = function(options) {
     attributesRepository: attributesRepository // input attributes repository
   }));
 
-  var tmpJSON = gulpif([ elementsSrcPath + '/**/*.json', '!' + elementsSrcPath + 'src/**/locales/*' ], gulp.dest(tmpDir));
+  var tmpJSON = gulpif([ elementsSrcPath + '/**/*.json', '!' + elementsSrcPath + '/**/locales/*' ], gulp.dest(tmpDir));
 
   var unbundleFiles = [];
   var importXliff = through.obj(function (file, enc, callback) {
