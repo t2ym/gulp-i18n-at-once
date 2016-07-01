@@ -1,0 +1,52 @@
+{
+  "name": "gulp-i18n-at-once",
+  "version": "0.0.1",
+  "description": "Perform I18N processes for Polymer i18n-behavior at once",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcov -- -R spec && if [ \"${TRAVIS_BRANCH}\" != \"\" ]; then coveralls <./coverage/lcov.info; fi",
+    "clean": "rm -rvf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/t2ym/gulp-i18n-at-once.git"
+  },
+  "keywords": [
+    "polymer",
+    "web-component",
+    "web-components",
+    "i18n",
+    "internationalization",
+    "gulp",
+    "gulpplugin"
+  ],
+  "author": "Tetsuya Mori <t2y3141592@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/t2ym/gulp-i18n-at-once/issues"
+  },
+  "homepage": "https://github.com/t2ym/gulp-i18n-at-once#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-i18n-leverage": "^1.0.14",
+    "gulp-i18n-preprocess": "^1.1.1",
+    "gulp-if": "^2.0.1",
+    "gulp-ignore": "^2.0.1",
+    "gulp-match": "^1.0.2",
+    "gulp-merge": "^0.1.1",
+    "gulp-sort": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "json-stringify-safe": "^5.0.1",
+    "multipipe": "^0.3.1",
+    "strip-bom": "^3.0.0",
+    "through2": "^2.0.1",
+    "xliff-conv": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.8",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
