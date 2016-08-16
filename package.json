@@ -1,6 +1,6 @@
 {
   "name": "gulp-i18n-at-once",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Perform integrated I18N processes for Polymer i18n-behavior at once",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,8 @@
   "homepage": "https://github.com/t2ym/gulp-i18n-at-once#readme",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-i18n-leverage": "^1.0.14",
-    "gulp-i18n-preprocess": "^1.1.1",
+    "gulp-i18n-leverage": "^1.1.2",
+    "gulp-i18n-preprocess": "^1.1.2",
     "gulp-if": "^2.0.1",
     "gulp-ignore": "^2.0.1",
     "gulp-match": "^1.0.2",
@@ -40,11 +40,11 @@
     "multipipe": "^0.3.1",
     "strip-bom": "^3.0.0",
     "through2": "^2.0.1",
-    "xliff-conv": "^1.0.1"
+    "xliff-conv": "^1.0.7"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coveralls": "^2.11.8",
+    "coveralls": "^2.11.12",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "mocha-lcov-reporter": "^1.2.0"
